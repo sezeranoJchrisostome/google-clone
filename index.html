@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/IOS_Google_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/style/output.css">
+    <title>Google clone</title>
+</head>
+<body>
+    <div class="w-screen h-screen  text-vsm dark:bg-dark-color dark:text-white font-default">
+        <div class="p-3">
+            <ul class="float-right flex items-center h-full gap-3 flex-shrink leading-[1.5rem]">
+                <li>
+                    <a class="hover:underline" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                </li>
+                <li>
+                    <a class="hover:underline"  href="https://www.google.rw/imghp?hl=en&ogbl">Images</a>
+                </li>
+                <li>
+                    <a class="flex items-center justify-center rounded-full w-[2.5rem] h-[2.5rem] hover:bg-gray-200 dark:hover:bg-secondary-600" href="https://www.google.rw/intl/en/about/products">
+                        <img class="w-vsm h-vsm dark:hidden" src="./assets/application.svg" alt="Application" >
+                        <img class="w-vsm h-vsm hidden dark:block" src="./assets/application-white.svg" alt="Application" >
+                    </a>
+                </li>
+                <li >
+                    <a class="flex items-center justify-center rounded-full w-[2.5rem] h-[2.5rem] hover:bg-gray-200 dark:hover:bg-secondary-600" href="https://www.google.com/">
+                        <img  class="w-[2rem] rounded-full h-[2rem]" src="https://lh3.googleusercontent.com/ogw/AOh-ky31wKwqJto0uDtJwMMtpUgCXOeghHPSBhPQCbSXRA=s32-c-mo" alt="User icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex justify-center items-center w-full text-secondary-500">
+            <div class=" flex justify-center flex-col items-center gap-4">
+                <div class="flex justify-center h-[9.375rem] flex-shrink w-full">
+                    <img class="self-end" src="./assets/googlelogo_color_272x92dp.png" alt="Google image">
+                </div>
+
+                <div class="rounded-full w-[35rem] border border-secondary-200 hover:border-transparent hover:shadow px-[0.563rem] cursor-pointer flex items-center justify-between ">
+                    <img class="w-vsm h-[2.75rem]" src="./assets/search.svg" alt="Search icon">
+                    <input type="text" class="bg-transparent  outline-none w-[85%]" >
+                    <img class="w-vsm h-[2.75rem]" src="./assets/mic.svg" alt="Search icon">
+                </div>
+
+                <div class="p-[1.1rem]">
+                    <input class="bg-secondary-100 text-secondary-500 py-3 px-2 text-center rounded-md cursor-pointer hover:outline hover:outline-secondary-200 outline-1" value="Google Search">
+                    <input class="bg-secondary-100 text-secondary-500 py-3 px-2 text-center rounded-md cursor-pointer hover:outline hover:outline-secondary-200 outline-1" value="I'm feeling luck">                
+                </div>
+
+                <div class="text-center">
+                    <p class="flex gap-2">
+                        <span>Google offered in:</span> <a class="text-primary-900 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBA">Français</a> <a class="text-primary-900 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=sw&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBE">Kiswahili</a> <a class="text-primary-900 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=rw&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBI">Ikinyarwanda</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="h-[15vh] bg-secondary-50 dark:bg-secondary-900 text-secondary-500 fixed bottom-0 w-full">
+            <div class="h-[50%] flex items-center border-b dark:border-secondary-800">
+                <div class="px-6">
+                    Rwanda
+                </div>
+            </div>
+            <div class="h-[50%] flex justify-between items-center px-6">
+                <ul class="flex gap-4 cursor-pointer">
+                    <li class="hover:underline">
+                        About
+                    </li>
+                    <li class="hover:underline">
+                        Advertising
+                    </li>
+                    <li class="hover:underline">
+                        Business
+                    </li>
+                    <li class="hover:underline">
+                        How Search works
+                    </li>
+                </ul>
+                <ul class="flex gap-4 cursor-pointer">
+                    <li class="hover:underline">
+                        Privacy
+                    </li>
+                    <li class="hover:underline">
+                        Terms
+                    </li>
+                    <li class="hover:underline">
+                        Settings
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
