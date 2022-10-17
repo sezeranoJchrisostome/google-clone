@@ -15,11 +15,11 @@ module.exports = {
           "900": "#171717",
         },
         "primary": {
-          "50":"#f2f2f2",
-          "100": "#f8f9fa",
-          "200": "#dfe1e5",
-          "500": "#70757a",
-          "800": "#3c4043",
+          "50":"",
+          "100": "",
+          "200": "",
+          "500": "",
+          "800": "#4285f4",
           "900": "#1a0dab",
         }
       },
@@ -33,6 +33,26 @@ module.exports = {
         "vsm":"1.5rem"
       }
     },
+    screens: {
+      '2xl': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+
+      
+      'xs': {'max': '380px'},
+      // => @media (max-width: 639px) { ... }
+    }
   },
   plugins: [],
 }
