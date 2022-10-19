@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/IOS_Google_icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/style/output.css">
+    <title>Google clone</title>
+</head>
+<body class="min-h-screen">
+    <div class="w-screen h-screen text-vsm dark:bg-dark-color dark:text-white font-roboto">
+        <section class="xs:h-screen">
+            <div class="p-3 xs:flex xs:justify-between xs:items-center">
+                <ul class="xs:flex items-center h-full flex-shrink hidden leading-6 ">
+                    <li class="h-8 flex text-secondary-500 mx-2">
+                        <img class="w-vsm h-vsm dark:hidden" src="./assets/bugger.svg" alt="bugger icon" >
+                    </li>
+                    <li class="h-8 px-2 font-semibold flex text-secondary-500 mx-2 border-b-2 border-primary-800 hover:border-primary-800 hover:text-primary-800">
+                        <a class="text-2 font-bold text-primary-800" href="https://mail.google.com/mail/&ogbl">ALL</a>
+                    </li>
+                    <li class="h-8 px-2 font-semibold flex text-secondary-500 mx-2 hover:border-b-2 hover:border-primary-800 hover:text-primary-800">
+                        <a class="text-2 font-bold"  href="https://www.google.rw/imghp?hl=en&ogbl">IMAGES</a>
+                    </li>
+                </ul>
+                <ul class="xs:float-none float-right flex items-center h-full gap-3 flex-shrink leading-6">
+                    <li class="xs:hidden">
+                        <a class="hover:underline" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                    </li>
+                    <li class="xs:hidden">
+                        <a class="hover:underline"  href="https://www.google.rw/imghp?hl=en&ogbl">Images</a>
+                    </li>
+                    <li>
+                        <a class="flex items-center justify-center rounded-full w-10 h-10 hover:bg-gray-200 dark:hover:bg-secondary-600" href="https://www.google.rw/intl/en/about/products">
+                            <img class="w-vsm h-vsm dark:hidden" src="./assets/application.svg" alt="Application" >
+                            <img class="w-vsm h-vsm hidden dark:block" src="./assets/application-white.svg" alt="Application" >
+                        </a>
+                    </li>
+                    <li >
+                        <a class="flex items-center justify-center rounded-full w-10 h-10 hover:bg-gray-200 dark:hover:bg-secondary-600" href="https://www.google.com/">
+                            <img  class="w-8 rounded-full h-8" src="https://lh3.googleusercontent.com/ogw/AOh-ky31wKwqJto0uDtJwMMtpUgCXOeghHPSBhPQCbSXRA=s32-c-mo" alt="User icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <main class="flex px-3 justify-center items-center w-full text-secondary-500">
+                <div class="w-full flex justify-center flex-col items-center gap-4">
+                    <div class=" flex justify-center  xs:h-[4rem] xs:w-106 h-[7rem] ">
+                        <img class="self-end" src="./assets/googlelogo_color_272x92dp.png" alt="Google image">
+                    </div>
+    
+                    <div class="rounded-full  xs:w-full w-560 border border-secondary-200 hover:border-transparent hover:shadow px-[0.563rem] cursor-pointer flex items-center gap-2 justify-between">
+                        <img class="w-vsm h-11" src="./assets/search.svg" alt="Search icon">
+                        <input type="text" class="bg-transparent  outline-none w-85%" >
+                        <img class="w-vsm h-11 xs:px-0 " src="./assets/camera.svg" alt="Search icon">
+                        <img class="w-vsm h-11 xs:hidden" src="./assets/mic.svg" alt="Search icon">
+                    </div>
+    
+                    <div class="p-5 xs:hidden flex gap-2">
+                        <div class="bg-secondary-100 flex items-center justify-center px-14 h-33 text-secondary-800  text-center rounded-md cursor-pointer hover:outline hover:outline-secondary-200 outline-1" > Google Search</div>
+                        <div class="bg-secondary-100 flex items-center justify-center px-14 h-33 text-secondary-800  text-center rounded-md cursor-pointer hover:outline hover:outline-secondary-200 outline-1" >I'm feeling luck</div>
+                    </div>
+    
+                    <div class="text-center flex xs:gap-1 gap-2 w-full justify-center">                        
+                        <div>Google offered in:</div> 
+                        <div class="flex gap-3">
+                            <a class="text-primary-500 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBA">Français</a>
+                            <a class="text-primary-500 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=sw&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBE">Kiswahili</a>
+                            <a class="text-primary-500 hover:underline" href="https://www.google.com/setprefs?sig=0_UA26llIZAFWaaXX83Ko2M0eIYfY%3D&hl=rw&source=homepage&sa=X&ved=0ahUKEwj5t7Kuu8f6AhVKEsAKHbDmA68Q2ZgBCBI">Ikinyarwanda</a>
+                        </div>                        
+                    </div>
+                </div>
+            </main>
+        </section>
+        <footer class="xs:relative h-94 fixed bottom-0 bg-secondary-50 dark:bg-secondary-900 text-secondary-500  w-full">
+            <div class="h-1/2 flex items-center border-b dark:border-secondary-800">
+                <div class="px-6">
+                    Rwanda
+                </div>
+            </div>
+            <div class="h-1/2 flex xs:flex-col xs:hidden justify-between items-center px-6">
+                <ul class="flex gap-4 cursor-pointer">
+                    <li class="hover:underline">
+                        About
+                    </li>
+                    <li class="hover:underline">
+                        Advertising
+                    </li>
+                    <li class="hover:underline">
+                        Business
+                    </li>
+                    <li class="hover:underline">
+                        How Search works
+                    </li>
+                </ul>
+                <ul class="flex gap-4 cursor-pointer">
+                    <li class="hover:underline">
+                        Privacy
+                    </li>
+                    <li class="hover:underline">
+                        Terms
+                    </li>
+                    <li class="hover:underline">
+                        Settings
+                    </li>
+                </ul>
+            </div>
+            <div class="h-1/2 flex xs:flex-col justify-between items-center px-6">
+                <ul class="flex gap-4 cursor-pointer">
+                    <li>
+                        Dark mode :  off
+                    </li>
+                    <li>
+                        Settings
+                    </li>
+                    <li>
+                        Privacy
+                    </li>
+                   
+                </ul>
+                <ul class="flex gap-4 cursor-pointer">
+                    <li>
+                        Advertising
+                    </li>
+                    <li>
+                        Business
+                    </li>
+                    <li>
+                        About
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
